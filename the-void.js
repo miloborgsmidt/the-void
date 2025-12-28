@@ -1,5 +1,5 @@
-const WIDTH = 60;
-const HEIGHT = 60;
+const WIDTH = 62;
+const HEIGHT = 62;
 
 let playerX = Math.floor(WIDTH / 2);
 let playerY = Math.floor(HEIGHT / 2);
@@ -13,7 +13,7 @@ function renderGrid() {
     for (let y = 0; y < HEIGHT; y++) {
         for (let x = 0; x < WIDTH; x++) {
             if (x === 0 || x === WIDTH - 1 || y === 0 || y === HEIGHT - 1) {
-                output += '▓'; // Border
+                output += '+'; // Border
             } else if (x === playerX && y === playerY) {
                 output += '<span class="player">X</span>';
             } else {
