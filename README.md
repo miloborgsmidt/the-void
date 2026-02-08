@@ -1,5 +1,5 @@
 # The Void
-A simple text based one player game with monsters, fire and everything in between.
+ 
 
 ## Backlog
 
